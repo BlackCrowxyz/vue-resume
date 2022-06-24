@@ -1,0 +1,192 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* font-family: 'Inter','Noto Sans SC'; */
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(@/assets/fonts/inter.woff2) format("woff2");
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F,
+    U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(@/assets/fonts/inter-cyrillic.woff2) format("woff2");
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(@/assets/fonts/inter-greek-ext.woff2) format("woff2");
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(@/assets/fonts/inter-greek.woff2) format("woff2");
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(@/assets/fonts/inter-vietnamese.woff2) format("woff2");
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1,
+    U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(@/assets/fonts/inter-latin-ext.woff2) format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
+    U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(@/assets/fonts/inter-latin.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
+}
+
+/* @font-face {
+  font-family: "Dana-FaNum";
+  font-style: normal;
+  font-weight: 300;
+  src: url("@/assets/fonts/dana-fanum-thin.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Dana-FaNum";
+  font-style: normal;
+  font-weight: normal;
+  src: url("@/assets/fonts/dana-fanum-regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Dana-FaNum";
+  font-style: normal;
+  font-weight: 500;
+  src: url("@/assets/fonts/dana-fanum-medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Dana-FaNum";
+  font-style: normal;
+  font-weight: bold;
+  src: url("@/assets/fonts/dana-fanum-bold.woff") format("woff");
+} */
+/* ////////////////////////////////////// */
+/* @font-face {
+  font-family: "Dana";
+  font-style: normal;
+  font-weight: 300;
+  src: url("@/assets/fonts/dana-thin.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Dana";
+  font-style: normal;
+  font-weight: normal;
+  src: url("@/assets/fonts/dana-regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Dana";
+  font-style: normal;
+  font-weight: 500;
+  src: url("@/assets/fonts/dana-medium.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Dana";
+  font-style: normal;
+  font-weight: bold;
+  src: url("@/assets/fonts/dana-bold.woff2") format("woff2");
+} */
+
+@layer base {
+  h1 {
+    @apply text-level-0 text-4xl font-black;
+  }
+  h2 {
+    @apply mt-6 text-level-0 uppercase font-semibold text-2xl border-b-[2.5px] border-b-gray-100 relative before:bg-red-500 before:-bottom-[2.5px] before:content-[''] before:h-[3px] before:left-0 before:absolute before:w-12;
+  }
+  h3 {
+    @apply mt-3 text-level-0 text-xl   font-semibold;
+  }
+  h4 {
+    @apply text-xl sm:text-2xl text-gray-900 font-medium;
+  }
+  h5 {
+    @apply text-lg sm:text-xl  text-gray-900 font-medium;
+  }
+
+  ul {
+    @apply mt-1 pl-3;
+  }
+  li {
+    @apply relative before:text-red-500 before:font-semibold before:content-['•'] before:-left-3 before:absolute;
+  }
+
+  code {
+    @apply ml-1 bg-red-200 rounded-sm text-level-0 font-medium p-1 px-2 border-transparent capitalize;
+  }
+
+  p {
+    @apply mt-2 text-base text-level-50 capitalize;
+  }
+
+  hr {
+    @apply my-4 border-t-2 border-t-gray-100;
+  }
+
+  a {
+    @apply underline lowercase;
+  }
+}
+
+html,
+body,
+#app {
+  height: 100%;
+}
+
+/* Dark mode autofill */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  border: 1px solid transparent;
+  /* box-shadow: 0 0 0px 1000px transparent inset; */
+  /* -webkit-box-shadow: 0 0 0px 1000px transparent inset; */
+  transition: background-color 5000s ease-in-out 0s;
+}

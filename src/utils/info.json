@@ -1,0 +1,117 @@
+{
+  "name": "Pouya Mohammadkhani",
+  "work-experiences": [
+    {
+      "company": "Nazdik",
+      "title": "Frontend developer",
+      "location": "Tehran",
+      "period": "june 2021 - present",
+      "skills": ["vue", "nuxt"],
+      "detail": "Pwa app and site",
+      "items": [
+        {
+          "text": "12 232fa aweae"
+        },
+        {
+          "text": "g3g3 aweae"
+        }
+      ]
+    },
+    {
+      "company": "Serpix",
+      "title": "Frontend developer",
+      "location": "Tehran",
+      "period": "june 2021 - present",
+      "skills": ["vue", "nuxt"],
+      "detail": "Pwa app and site",
+      "items": [
+        {
+          "text": "12 232fa aweae"
+        },
+        {
+          "text": "g3g3 aweae"
+        }
+      ]
+    }
+  ],
+  "skills": {
+    "title": "Skills",
+    "items": [
+      {
+        "title": "technical",
+        "items": [
+          {
+            "skill": "Vue",
+            "rate": 10
+          },
+          {
+            "skill": "Python",
+            "rate": 8
+          }
+        ]
+      },
+      {
+        "title": "frontend",
+        "items": [
+          {
+            "skill": "speaking",
+            "rate": 10
+          },
+          {
+            "skill": "Python",
+            "rate": 8
+          }
+        ]
+      },
+      {
+        "title": "",
+        "items": [
+          {
+            "skill": "Speaking",
+            "rate": 10
+          },
+          {
+            "skill": "Python",
+            "rate": 8
+          }
+        ]
+      }
+    ]
+  },
+  "education": {
+    "title": "education",
+    "items": [
+      {
+        "place-name": "Shahid beheshti",
+        "years": "2014-1230",
+        "degree": "Masters of Computer Science",
+        "location": "Tehran, Iran"
+      },
+      {
+        "place-name": "Tabab",
+        "years": "2014-1230",
+        "degree": "Msc",
+        "location": "Tehran, Iran"
+      }
+    ]
+  },
+  "contacts": [
+    {
+      "title": "email",
+      "text": "p.mohammadkhani95@gmail.com",
+      "href": "p.mohammadkhani95@gmail.com",
+      "to": "mailto:"
+    },
+    {
+      "title": "linkedin",
+      "text": "Pouya Mohammadkhani",
+      "href": "https://www.linkedin.com/in/pouya-mohammadkhani/"
+    },
+    {
+      "title": "phone",
+      "text": "+98 930 538 7992",
+      "href": "+989305387992",
+      "to": "tel:"
+    }
+  ]
+}

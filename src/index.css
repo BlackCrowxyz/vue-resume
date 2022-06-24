@@ -165,7 +165,7 @@
   }
 
   a {
-    @apply underline lowercase;
+    @apply underline print:no-underline  print:border print:border-blue-400  lowercase;
   }
 }
 

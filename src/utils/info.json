@@ -5,31 +5,124 @@
       "company": "Nazdik",
       "title": "Frontend developer",
       "location": "Tehran",
-      "period": "june 2021 - present",
+      "period": "aug 2021 - present",
+      "months": "11 mos",
       "skills": ["vue", "nuxt"],
-      "detail": "Pwa app and site",
-      "items": [
+      "projects": [
         {
-          "text": "12 232fa aweae"
+          "title": "Pwa app",
+          "link": "https://app.nazdik.org/",
+          "detail": "Developing an Investment platform offering Investing choices based on user need and risk value.",
+          "items": [
+            {
+              "text": "Fully responsive design with Customized UI for iOS and Android(Phone and Tablet) and Desktop"
+            },
+            {
+              "text": "Brilliant design supporting automatic and manual dark mode"
+            },
+            {
+              "text": "Interactive chart helping user invest better with given amount and goal setting"
+            },
+            {
+              "text": "PWA working on android and ios"
+            }
+          ],
+          "skills": [
+            "Nuxt",
+            "Vue",
+            "Vuetify",
+            "Webpack",
+            "Highcharts",
+            "axios",
+            "nuxt-auth",
+            "nuxt-pwa"
+          ]
         },
         {
-          "text": "g3g3 aweae"
+          "title": "Nazdik Landing",
+          "link": "https://landing.nazdik.org/%DA%A9%D9%85%D9%BE%DB%8C%D9%86_%D8%B4%D8%B1%D9%88%D8%B9_%D9%86%D8%B2%D8%AF%DB%8C%DA%A9",
+          "detail": "A responsive landing website implemented with Vue 3, Vite, Typescript, Tailwind css, Axios",
+          "items": [
+            {
+              "text": "Fully responsive design"
+            },
+            {
+              "text": "Blazing fase load"
+            }
+          ],
+          "skills": ["Vue3", "Typescript", "Tailwind", "Vite", "axios"]
         }
       ]
     },
     {
-      "company": "Serpix",
+      "company": "Serpix | سرپیکس",
       "title": "Frontend developer",
       "location": "Tehran",
-      "period": "june 2021 - present",
+      "period": "Jun 2021 - Oct 2021",
+      "months": "5 mos",
       "skills": ["vue", "nuxt"],
-      "detail": "Pwa app and site",
-      "items": [
+      "projects": [
         {
-          "text": "12 232fa aweae"
-        },
+          "title": "site",
+          "link": "https://app.nazdik.org/",
+          "detail": "Serpix is a tool designed for daily rank monitoring for any location, language, and device. My major duty was to implement the given design",
+          "items": [
+            {
+              "text": "A dashboard containing daily charts and user could filter charts by different tags and location"
+            },
+            {
+              "text": "Interactive charts with exportable data to png and excel file"
+            },
+            {
+              "text": "Fully responsive design"
+            }
+          ],
+          "skills": [
+            "Nuxt",
+            "Vue",
+            "Vuetify",
+            "Webpack",
+            "Highcharts",
+            "axios",
+            "nuxt-auth",
+            "nuxt-pwa"
+          ]
+        }
+      ]
+    },
+    {
+      "company": "Serpix | سرپیکس",
+      "title": "Frontend developer",
+      "location": "Tehran",
+      "period": "Jun 2021 - Oct 2021",
+      "months": "5 mos",
+      "skills": ["vue", "nuxt"],
+      "projects": [
         {
-          "text": "g3g3 aweae"
+          "title": "Himart",
+          "link": "https://app.nazdik.org/",
+          "detail": "Serpix is a tool designed for daily rank monitoring for any location, language, and device. My major duty was to implement the given design",
+          "items": [
+            {
+              "text": "A dashboard containing daily charts and user could filter charts by different tags and location"
+            },
+            {
+              "text": "Interactive charts with exportable data to png and excel file"
+            },
+            {
+              "text": "Fully responsive design"
+            }
+          ],
+          "skills": [
+            "Nuxt",
+            "Vue",
+            "Vuetify",
+            "Webpack",
+            "Highcharts",
+            "axios",
+            "nuxt-auth",
+            "nuxt-pwa"
+          ]
         }
       ]
     }
@@ -38,20 +131,36 @@
     "title": "Skills",
     "items": [
       {
-        "title": "technical",
+        "title": "frontend",
         "items": [
           {
-            "skill": "Vue",
+            "skill": "Vue2/vue3",
             "rate": 10
           },
           {
-            "skill": "Python",
+            "skill": "Nuxtjs",
+            "rate": 8
+          },
+          {
+            "skill": "Vuetify",
+            "rate": 8
+          },
+          {
+            "skill": "tailwindcss",
+            "rate": 8
+          },
+          {
+            "skill": "typescript",
+            "rate": 8
+          },
+          {
+            "skill": "Highchart",
             "rate": 8
           }
         ]
       },
       {
-        "title": "frontend",
+        "title": "technical",
         "items": [
           {
             "skill": "speaking",
@@ -105,7 +214,8 @@
     {
       "title": "linkedin",
       "text": "Pouya Mohammadkhani",
-      "href": "https://www.linkedin.com/in/pouya-mohammadkhani/"
+      "href": "https://www.linkedin.com/in/pouya-mohammadkhani/",
+      "to": ""
     },
     {
       "title": "phone",

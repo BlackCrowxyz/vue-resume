@@ -2,7 +2,17 @@
 
 # Vue-resume-maker
 
-This template should help get you started developing with Vue 3 in Vite.
+This template should help get you started creating your resume with Vue 3 in Vite.
+
+## Todo
+
+- [x] Responsive design
+- [ ] Export PDF
+- [ ] Optimize for print
+- [ ] Add more info to resume structure
+- [ ] Add more theme
+- [ ] Enable user to modify the text
+- [ ] Add dark mode
 
 ## Recommended IDE Setup
 

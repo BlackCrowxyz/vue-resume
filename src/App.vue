@@ -1,5 +1,5 @@
 <template>
-  <div class="p-12">
+  <div class="p-8 sm:p-12 max-w-4xl mx-auto bg-gray-50 print:bg-white">
     <router-view />
   </div>
 </template>

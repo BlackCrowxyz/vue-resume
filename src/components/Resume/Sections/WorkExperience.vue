@@ -8,7 +8,6 @@
         <h3>{{ job.company }}</h3>
         <p>
           <small>
-
             {{ job.location }}
           </small>
         </p>
@@ -19,13 +18,12 @@
         </p>
         <p>
           <small>
-
             <em> {{ job.period }} </em> · <span>{{ job.months }}</span>
           </small>
         </p>
       </div>
 
-      <template v-for="project, n in job.projects" :key="n">
+      <template v-for="(project, n) in job.projects" :key="n">
         <p>
           <a :href="project.link">
             {{ project.title }}
@@ -38,12 +36,12 @@
             <li>{{ x.text }}</li>
           </template>
         </ul>
-        <p>
+        <p class="flex flex-wrap">
           Skills:
           <template v-for="(skill, k) in project.skills" :key="k">
             <code>
-                {{ skill }}
-             </code>
+              {{ skill }}
+            </code>
           </template>
         </p>
       </template>
@@ -55,11 +53,11 @@
 const props = defineProps({
   items: {
     type: Object,
-    required: true
+    required: true,
   },
-})
+});
 
-const list = props.items
+const list = props.items;
 </script>
 
 <style scoped>

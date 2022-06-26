@@ -130,13 +130,13 @@
 
 @layer base {
   h1 {
-    @apply text-level-0 text-4xl font-black;
+    @apply text-level-0 text-3xl sm:text-4xl font-black;
   }
   h2 {
-    @apply mt-6 text-level-0 uppercase font-semibold text-2xl border-b-[2.5px] border-b-gray-100 relative before:bg-red-500 before:-bottom-[2.5px] before:content-[''] before:h-[3px] before:left-0 before:absolute before:w-12;
+    @apply mt-6 text-level-0 uppercase font-semibold text-xl sm:text-2xl border-b-[2.5px] border-b-gray-100 relative before:bg-red-500 before:-bottom-[2.5px] before:content-[''] before:h-[3px] before:left-0 before:absolute before:w-12;
   }
   h3 {
-    @apply mt-3 text-level-0 text-xl   font-semibold;
+    @apply mt-3 text-level-0 text-lg sm:text-xl font-semibold;
   }
   h4 {
     @apply text-xl sm:text-2xl text-gray-900 font-medium;
@@ -153,11 +153,11 @@
   }
 
   code {
-    @apply ml-1 bg-red-200 rounded-sm text-level-0 font-medium p-1 px-2 border-transparent capitalize;
+    @apply ml-1 mb-1 bg-red-200 rounded-sm text-level-0 font-medium p-1 px-2 border-transparent capitalize;
   }
 
   p {
-    @apply mt-2 text-base text-level-50 capitalize;
+    @apply mt-2 text-sm sm:text-base text-level-50 capitalize;
   }
 
   hr {
